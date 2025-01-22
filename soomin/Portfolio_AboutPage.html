@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_about.page</title>
+    <style>
+      *{
+          margin : 0;
+          padding :0;
+          list-style: none;
+      }
+      .nav {
+            width : 250px;
+            height : 100vh;
+            color : white;
+            background-color: rgb(51, 51, 51);
+            background-image: url("images/navbar_background_image.jpg");
+            margin : 0;
+            text-align: center; 
+            float : left;
+          }
+      a {
+        height : 300px;   
+        font-size: 25px;
+        color : white;
+        padding : 30px; 
+        text-decoration-line: none;
+        }
+      a:hover {
+        color : rgb(110, 139, 255);
+      }
+      li {
+          padding : 30px 0px;
+        }
+      .bigbox {
+        width : 1300px; /* 노트북 에서는 1100 */
+        height : 680px; /* 노트북 에서는 630 */
+        margin : 20px 130px 0px 370px;
+        padding : 50px;
+        border: 3px solid black;
+        border-radius: 30px;
+        box-shadow: 3px 3px 2px 3px rgb(91, 91, 91);  
+      }
+      .introduce {
+        font-size: 23px;
+        font-family:monospace;
+        font-weight: bold;
+      }
+      .main {
+        height : 100vh;
+        background-image: url("images/body_background_image.jpg");
+        background-color: rgb(143, 203, 255);
+      }
+      h1 {
+        font-size : 70px;
+        text-align: center;
+      }
+      .area1 {
+        font-size: 30px;
+        float : right;
+      }
+      img {
+        margin : 0px 70px 50px 0px;
+        float:left;
+      }
+      p {
+        line-height : 60px;
+        font-family:monospace;
+      }
+      p > b {
+        font-weight : bold;
+        background-color: rgb(255, 255, 131);
+      }
+    </style>
+</head>
+<body>
+      <div class = "nav">
+          <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Portfolio_HomePage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Portfolio_AboutPage.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Portfolio_SkilllPage.html">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Portfolio_PortfolioPage.html">Portfolio</a>
+              </li>
+            </ul>
+      </div> 
+      <div class = "main">
+            <h1>
+              ABOUT ME,
+            </h1>
+            <div class = "bigbox">
+                  <div class = "introduce">
+                    <img src="images/프로필사진_1.jpg" alt="프로필사진" width="250px" height="250px" style="border:3px solid black; border-radius: 130px;"> 
+                    Name : 조수민 <br><br>
+                    Birth : 2003.09.27 <br><br>
+                    E-mail : ehfvls0927@naver.com <br><br>
+                    PhoneNmber : 010 - 0000 - 0000 <br><br>
+                    Major : 소프트웨어융합과 
+                  </div> <!-- introduce div 끝끝 -->
+                  <div class="area1">
+                    <div class="messagebox">
+                        <h3>안녕하세요. 신입 웹 개발자 조수민 입니다. </h3> <br>
+                        <p><b>"느린 것을 두려워 말고, 멈추는 것을 두려워 하라."</b>라는 말이 있습니다.</p>
+                        <p>어떤 분야든 배움에는 끝이 없습니다.
+                        겸손의 자세로 배움을 게을리 하지 않고,
+                        빠르게 변화하는 트렌드에 맞춰 발전하는 사람이 되겠습니다.</p>
+                      </div>
+                  </div> <!-- area1 -->
+
+            </div> <!-- bigbox div 끝끝 -->
+  
+      </div> <!-- main div 끝끝-->
+   
+
+  
+</body>
+</html>
